@@ -1,0 +1,45 @@
+@media (min-width: 768px)
+{.section {
+    padding: 7.5rem 0;
+}}
+.section {
+  
+    padding: 8.125rem 0;
+}
+.lg-title {
+    font-size: 52px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 60px;
+    color: rgb(33, 37, 41);
+}
+.feature-icon-block {
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    background: #eee;
+    color: #007bff;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 100%;
+    padding-top: 20px;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+.fa, .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+.feature-icon-block:hover{
+    background: #007bff;
+    color: #eee;
+
+}
+.feature-block h4 {
+    text-transform: capitalize;
+}
+.h4, h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+}

@@ -1,0 +1,32 @@
+@media (min-width: 768px)
+{.section {
+    padding: 7.5rem 0;
+}}
+.section {
+  
+    padding: 8.125rem 0;
+}
+.lg-title {
+    font-size: 52px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 60px;
+    color: rgb(33, 37, 41);
+}
+.service-icon {
+    font-size: 30px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.service-content {
+    margin-top: 20px;
+}
+.service-content h4 {
+    margin-bottom: 10px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.service-content h4 span {
+    font-weight: 400;
+}

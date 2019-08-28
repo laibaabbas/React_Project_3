@@ -1,0 +1,40 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+@media (min-width: 992px)
+{.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}}
+ .nav-link:focus, .nav-link:hover {
+    color: rgba(255,255,255,.75);
+}
+.navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-transform: capitalize;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.bg-visible{
+    background-color: transparent;
+}

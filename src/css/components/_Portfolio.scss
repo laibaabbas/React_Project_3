@@ -1,0 +1,55 @@
+.portfolio-block {
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 20px #eee;
+    box-shadow: 0px 0px 20px #eee;
+}
+  
+.portfolio-block:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.portfolio-block img {
+    margin-bottom: 15px;
+    width: 350px;
+    height: 241px;
+}
+.portfolio-content {
+    padding: 20px 0px 40px;
+}
+.portfolio-block:hover .overlay-content, .portfolio-block:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+.overlay-content {
+    position: absolute;
+    content: "";
+    margin-top: -15%;
+    top: 50%;
+    left: 40%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.overlay-content i {
+    width: 60px;
+    height: 60px;
+    display: block;
+    background: #fff;
+    text-align: center;
+    padding-top: 22px;
+    border-radius: 100%;
+}
+.work-cat {
+    color: #007bff;
+}
